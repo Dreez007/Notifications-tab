@@ -1,0 +1,19 @@
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.not-text {
+  font-size: 120%;
+  color: black;
+}
+.not-icon {
+  color: white;
+  font-size: 90%;
+  background-color: hsl(224, 21%, 14%);
+}
+.mark-read a{
+  color: hsl(219, 14%, 63%);
+  font-size: 100%;
+}
