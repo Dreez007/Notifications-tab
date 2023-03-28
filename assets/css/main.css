@@ -11,9 +11,50 @@ a {
 .not-icon {
   color: white;
   font-size: 90%;
-  background-color: hsl(224, 21%, 14%);
+  background-color: hsl(219, 85%, 26%);
 }
 .mark-read a{
   color: hsl(219, 14%, 63%);
   font-size: 100%;
+}
+.mark-read a:hover {
+  color: hsl(219, 85%, 26%);
+}
+.unread {
+  background-color: hsl(210, 60%, 98%);
+}
+.not-bar img {
+  width: 3em;
+}
+.not-bar p {
+  color: hsl(219, 14%, 63%);
+}
+.name a{
+  color: hsl(224, 21%, 14%);
+  font-weight: bold;
+}
+.name a:hover {
+  color: hsl(219, 85%, 26%);
+}
+.post a{
+  color: hsl(219, 12%, 42%);
+  font-weight: bold;
+}
+.group a {
+  color: hsl(219, 85%, 26%);
+  font-weight: bold;
+}
+.time {
+  font-size: 80%;
+}
+.new {
+  color: hsl(1, 90%, 64%);
+}
+.p-msg {
+  border: 2px solid hsl(219, 14%, 63%);
+}
+.p-msg:hover {
+  background-color: hsl(205, 33%, 90%);
+  border: 2px solid hsl(205, 33%, 90%);
+  cursor: pointer;
 }
